@@ -6,6 +6,15 @@ body{
 img{
     max-width: 100%;
 }
+.btn {
+    text-decoration: none;
+    font-size: 16px;
+    text-transform: capitalize;
+    background: #FF8063;
+    padding: 20px 30px;
+    border-radius: 10px;
+    color: #ffffff;
+}
 .container{
     width: 80%;
     margin: 0 auto;
@@ -17,17 +26,21 @@ img{
 .one-third{
     width: 28%;
     float: left;
-    height: 600px;
     margin: 15px;
     padding: 5px;
 }
 .highlight{
     color: #FF8063;
 }
+h1,h2,h3,h4,h5,h6 {
+    font-family: 'Bebas Neue', cursive;
+}
 p{
     font-family: 'Roboto', sans-serif;
 }
-
+.left{
+    float: left;
+}
 /* NAVBAR */
 ul{
     margin: 0;
@@ -58,22 +71,12 @@ ul li a{
     font-size: 70px;
     text-transform: uppercase;
     margin-bottom: 0px;
-    font-family: 'Bebas Neue', cursive;
     font-weight: 400;
 }
 .introduction-content p{
     font-size: 20px;
     margin-top: 0px;
     margin-bottom: 60px;
-}
-.introduction-content a{
-    text-decoration: none;
-    font-size: 16px;
-    text-transform: capitalize;
-    background: #FF8063;
-    padding: 20px 30px;
-    border-radius: 10px;
-    color: #ffffff;
 }
 .introduction-img img{
     margin: 0 auto;
@@ -85,23 +88,13 @@ ul li a{
     margin-top: 120px;
 
 }
-.about-content h1{
-    font-family: 'Bebas Neue', cursive;
+.about-content h1{;
     font-size: 48px;
     font-weight: 600;
 }
 .about-content p{
     font-size: 16px;
     margin-bottom: 50px;
-}
-.about-content a{
-    text-decoration: none;
-    font-size: 16px;
-    text-transform: capitalize;
-    background: #FF8063;
-    padding: 20px 30px;
-    border-radius: 10px;
-    color: #ffffff;
 }
 
 /* PROJECT SECTION */
@@ -115,7 +108,6 @@ ul li a{
     text-align: center;
     font-size: 28px;
     text-transform: uppercase;
-    font-family: 'Bebas Neue', cursive;
 }
 .project .one-third{
     background-color: #ffffff;
@@ -126,5 +118,71 @@ ul li a{
 }
 .project .one-third h2{
     font-size: 24px;
+}
 
+/* BLOG SECTION */
+
+.blog {
+    margin: 100px 0px;
+}
+.blog .one-third {
+    box-shadow: 5px 5px 16px gray;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 80px;
+}
+.blog .blog-title h3{
+    text-align: center;
+    font-size: 28px;
+    margin-bottom: 0px;
+    text-transform: uppercase;
+}
+.blog .blog-title p {
+    font-size: 18px;
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 30px;
+}
+.blog .service-icon{
+    color: #FF8063;
+    font-size: 30px;
+    height: 150px;
+    margin: 0px 30px 0px 10px;
+}
+.service-content h3{
+    font-size: 24px;
+    text-transform: uppercase;
+    color: #FF8063;
+    margin-top: 0;
+}
+.service-content p {
+    color: #585757;
+}
+
+/* work section */
+.container-half {
+    width: 50%;
+    margin: 0 auto
+}
+.work {
+    margin: 100px 0;
+}
+.work-img {
+    clear: both;
+    overflow: hidden;
+    padding: 30px 0px;
+    background-image: url(images/Group_33094_1.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 30px;
+}
+.work-content {
+    text-align: center;
+    color: #fff;
+    font-size: 28px;
+}
+.work-btn {
+    text-align: center;
+    margin-top: 55px;
 }
