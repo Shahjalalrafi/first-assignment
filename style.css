@@ -1,3 +1,6 @@
+* {
+    box-sizing: border-box;
+}
 body{
     margin: 0;
     padding: 0;
@@ -24,11 +27,13 @@ img{
     float: left; 
 }
 .one-third{
-    width: 28%;
-    float: left;
-    margin: 15px;
-    padding: 5px;
+    height: auto;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+    box-shadow: 5px 5px 16px gray;
 }
+
 .highlight{
     color: #FF8063;
 }
@@ -40,6 +45,7 @@ p{
 }
 .left{
     float: left;
+    width: 30%;
 }
 /* NAVBAR */
 ul{
@@ -64,9 +70,7 @@ ul li a{
     color: black;
 }
 /* INTRODUCTION SECTION */
-.introduction-content {
-    margin-top: 110px;
-}
+
 .introduction-content h1{
     font-size: 70px;
     text-transform: uppercase;
@@ -83,18 +87,22 @@ ul li a{
 }
 
 /* ABOUT SECTION */
-
+.about-section{
+    clear: both;
+    overflow: hidden;
+}
 .about-content {
     margin-top: 120px;
 
 }
-.about-content h1{;
+.about-content h1{
     font-size: 48px;
     font-weight: 600;
+    margin: 0;
 }
 .about-content p{
     font-size: 16px;
-    margin-bottom: 50px;
+    margin-bottom: 40px;
 }
 
 /* PROJECT SECTION */
@@ -103,28 +111,27 @@ ul li a{
     background: #E5E5E5;
     overflow: hidden;
     padding:  100px 0px;
+    margin: 0 auto;
 }
 .project .post-title{
     text-align: center;
     font-size: 28px;
     text-transform: uppercase;
 }
-.project .one-third{
-    background-color: #ffffff;
-    height: auto;
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 5px 5px 16px gray;
+.project .one-third {
+    background: #ffffff;
 }
+
 .project .one-third h2{
     font-size: 24px;
+}
+.project .project-content{
+    margin-left: 20px;
 }
 
 /* BLOG SECTION */
 
-.blog {
-    margin: 100px 0px;
-}
+
 .blog .one-third {
     box-shadow: 5px 5px 16px gray;
     padding: 20px;
@@ -146,8 +153,7 @@ ul li a{
 .blog .service-icon{
     color: #FF8063;
     font-size: 30px;
-    height: 150px;
-    margin: 0px 30px 0px 10px;
+    height: 200px;
 }
 .service-content h3{
     font-size: 24px;
@@ -185,4 +191,18 @@ ul li a{
 .work-btn {
     text-align: center;
     margin-top: 55px;
+}
+
+/* FOOTER */
+footer {
+    text-align: center;
+    padding-bottom: 25px;
+}
+footer h3{
+    font-size: 26px;
+    margin: 0px;
+}
+footer img {
+    width: 30px;
+    margin: 5px;
 }
